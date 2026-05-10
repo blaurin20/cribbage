@@ -494,7 +494,7 @@ function Lobby({ onCreate, onJoin, error }) {
           <div key={i} style={{
             position: "absolute", fontSize: 120, opacity: 0.03, color: "#fff",
             top: `${[10, 60, 20, 70][i]}%`, left: `${[5, 75, 85, 20][i]}%`,
-            transform: `rotate(${[−15, 10, -20, 5][i]}deg)`,
+            transform: `rotate(${[-15, 10, -20, 5][i]}deg)`,
             fontFamily: "'Georgia', serif",
           }}>{s}</div>
         ))}
