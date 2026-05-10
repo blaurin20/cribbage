@@ -131,7 +131,7 @@ function Lobby({ onCreate, onJoin, error }) {
     <div style={{ minHeight:"100vh",background:"#060f1e",display:"flex",alignItems:"center",justifyContent:"center",fontFamily:"Georgia,serif",padding:20 }}>
       <div style={{ textAlign:"center",maxWidth:360,width:"100%" }}>
         <div style={{ fontSize:48,marginBottom:8 }}>♣</div>
-        <h1 style={{ fontSize:28,color:"#f0c040",margin:"0 0 4px",letterSpacing:3 }}>CRIBBAGE V2</h1>
+        <h1 style={{ fontSize:28,color:"#f0c040",margin:"0 0 4px",letterSpacing:3 }}>CRIBBAGE</h1>
         <p style={{ color:"#4a7aaa",fontSize:13,marginBottom:32,letterSpacing:1 }}>MULTIPLAYER</p>
 
         <button onClick={onCreate} style={lobbyBtn("#1a5a2a")}>🃏 Create New Room</button>
@@ -238,7 +238,7 @@ export default function App() {
 
   if (screen==="waiting") return (
     <div style={{ minHeight:"100vh",background:"#060f1e",display:"flex",alignItems:"center",justifyContent:"center",fontFamily:"Georgia,serif",color:"#e8dfc8",flexDirection:"column",gap:24 }}>
-      <div style={{ fontSize:36,color:"#f0c040" }}>♣ CRIBBAGE</div>
+      <div style={{ fontSize:36,color:"#f0c040" }}>♣ CRIBBAGE v2</div>
       <div style={{ fontSize:16,color:"#8aaccc" }}>Waiting for opponent to join…</div>
       <div style={{ background:"#0d1f35",border:"1px solid #2a4a6a",borderRadius:14,padding:"20px 36px",textAlign:"center" }}>
         <div style={{ fontSize:12,color:"#4a6a90",letterSpacing:2,marginBottom:8 }}>ROOM CODE</div>
