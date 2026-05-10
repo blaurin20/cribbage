@@ -1,0 +1,12 @@
+# Railway deploys the server folder as a Node.js service
+# Set these environment variables in Railway dashboard:
+#   PORT  (Railway sets this automatically)
+
+[build]
+  builder = "nixpacks"
+
+[deploy]
+  startCommand = "node index.js"
+  healthcheckPath = "/health"
+  healthcheckTimeout = 10
+  restartPolicyType = "on_failure"
