@@ -131,7 +131,7 @@ function Lobby({ onCreate, onJoin, error }) {
     <div style={{ minHeight:"100vh",background:"#060f1e",display:"flex",alignItems:"center",justifyContent:"center",fontFamily:"Georgia,serif",padding:20 }}>
       <div style={{ textAlign:"center",maxWidth:360,width:"100%" }}>
         <div style={{ fontSize:48,marginBottom:8 }}>♣</div>
-        <h1 style={{ fontSize:28,color:"#f0c040",margin:"0 0 4px",letterSpacing:3 }}>CRIBBAGE</h1>
+        <h1 style={{ fontSize:28,color:"#f0c040",margin:"0 0 4px",letterSpacing:3 }}>CRIBBAGE V2</h1>
         <p style={{ color:"#4a7aaa",fontSize:13,marginBottom:32,letterSpacing:1 }}>MULTIPLAYER</p>
 
         <button onClick={onCreate} style={lobbyBtn("#1a5a2a")}>🃏 Create New Room</button>
