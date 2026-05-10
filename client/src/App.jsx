@@ -271,7 +271,7 @@ export default function App() {
       {/* Header */}
       <div style={{ width:"100%",maxWidth:480,display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:10 }}>
         <div>
-          <div style={{ fontSize:20,fontWeight:700,color:"#f0c040",letterSpacing:2 }}>♣ CRIBBAGE</div>
+          <div style={{ fontSize:20,fontWeight:700,color:"#f0c040",letterSpacing:2 }}>♣ CRIBBAGE v2</div>
           <div style={{ fontSize:11,color:"#4a7aaa",letterSpacing:1 }}>
             {isDealer?"YOU ARE DEALER":"OPPONENT IS DEALER"} &nbsp;|&nbsp; Room: <span style={{ fontFamily:"monospace",color:"#8aaccc" }}>{roomCode}</span>
           </div>
