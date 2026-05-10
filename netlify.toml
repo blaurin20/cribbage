@@ -1,0 +1,7 @@
+[build]
+  base = "client"
+  command = "npm install --legacy-peer-deps && ./node_modules/.bin/vite build"
+  publish = "client/dist"
+
+[build.environment]
+  VITE_WS_URL = "wss://cribbage-server-production.up.railway.app"
