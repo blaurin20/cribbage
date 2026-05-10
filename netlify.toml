@@ -1,6 +1,6 @@
 [build]
   base = "client"
-  command = "npm install --legacy-peer-deps && ./node_modules/.bin/vite build"
+  command = "npm install --legacy-peer-deps && node node_modules/vite/bin/vite.js build"
   publish = "client/dist"
 
 [build.environment]
